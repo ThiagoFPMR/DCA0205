@@ -9,7 +9,7 @@ class DataGenerator(ABC):
         pass
 
 
-import csv
+import csv  # adaptee
 
 
 class csvDataGenerator(DataGenerator):
@@ -24,7 +24,7 @@ class csvDataGenerator(DataGenerator):
                 yield row
 
 
-import json
+import json  # adaptee
 
 
 class jsonDataGenerator(DataGenerator):
