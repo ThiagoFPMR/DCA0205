@@ -5,7 +5,7 @@ class DataGenerator(ABC):
     def __init__(self, páth):
         pass
 
-    def __iter__(self) -> dict:
+    def __iter__(self):
         pass
 
 
